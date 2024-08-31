@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Text>Command KssDemo</Text>
+		<Description>KssDemo</Description>
+		<Assembly>KssAddin\KssDemo.dll</Assembly>
+		<FullClassName>KssDemo.Command</FullClassName>
+		<ClientId>3f85a69c-7f1f-434c-b59b-f85256b4e3d2</ClientId>
+		<VendorId>Tobic</VendorId>
+		<VendorDescription>Tobic</VendorDescription>
+	</AddIn>
+	<AddIn Type="Application">
+		<Name>Application KssDemo</Name>
+		<Assembly>KssAddin\KssDemo.dll</Assembly>
+		<FullClassName>KssDemo.App</FullClassName>
+		<ClientId>c6c24e5c-60c7-40ab-a196-f4c23d138f25</ClientId>
+		<VendorId>Tobic</VendorId>
+		<VendorDescription>Tobic</VendorDescription>
+	</AddIn>
+</RevitAddIns>
