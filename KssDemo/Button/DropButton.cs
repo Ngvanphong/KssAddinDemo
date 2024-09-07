@@ -40,6 +40,7 @@ namespace KssDemo.Button
             pushButtonData.ToolTip = "Beam tooltip";
             pushButtonData.LongDescription = "Create beam description";
             pushButtonData.ToolTipImage = bitmap;
+           
 
             PushButtonData pushButtonData2 = new PushButtonData("CreateBeam33355", "Create\nBeam2",
               Assembly.GetExecutingAssembly().Location, "KssDemo.CreateBeam.CreateBeamBinding");

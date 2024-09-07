@@ -33,8 +33,8 @@ namespace KssDemo.Button
                 ribbonPanel = app.CreateRibbonPanel(AppConstant.RibbonName, AppConstant.PanelArchitecter);
 
             BitmapSource bitmap = Extension.GetImageSource(Resources.icons8_crop_24__2_);
-            PushButtonData pushButtonData = new PushButtonData("CreateBeam", "Create\nBeam",
-               Assembly.GetExecutingAssembly().Location, "KssDemo.CreateBeam.CreateBeamBinding");
+            PushButtonData pushButtonData = new PushButtonData("FamilyManager", "Family\nManager",
+               Assembly.GetExecutingAssembly().Location, "KssDemo.FamilyManager.FamilyManagerBinding");
             pushButtonData.LargeImage = bitmap;
             pushButtonData.Image = bitmap;
             pushButtonData.ToolTip = "Beam tooltip";
